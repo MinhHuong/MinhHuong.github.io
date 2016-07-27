@@ -1,4 +1,5 @@
 var app = angular.module("PortfolioApp", ['ngRoute']);
+
 app.config(['$routeProvider', function($routeProvider) {
 	$routeProvider
 		.when('/', {
@@ -13,3 +14,11 @@ app.config(['$routeProvider', function($routeProvider) {
 			redirectTo: "/"
 		});
 }]);
+
+$(document).ready(function() {
+	$("#my-portrait").click(function() {
+		$(this).animate({
+			marginLeft: '-=450px'
+		}, 1200);
+	});
+});
