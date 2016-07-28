@@ -131,6 +131,14 @@ body {
 
 #my-portrait:hover {
     cursor: pointer;
+    /*transition-property: transform;
+    transition-duration: 1.5s;
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";*/
 }
 
 .cover-picture > .my-name {
@@ -187,6 +195,15 @@ body {
 /* Body */
 .main-content {
     padding: 30px 30px 15px 30px;
+}
+
+/* ==================
+    Footer
+    ================= */
+
+footer {
+    padding: 0px 30px 7px 30px;
+    font-size: 0.9em;
 }
 
 /* ==========================================================================

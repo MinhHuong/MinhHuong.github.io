@@ -24,6 +24,7 @@
 
         <!-- Controllers -->
         <script src="js/controllers/HomeController.js"></script>
+        <script src="js/controllers/ExperiencesController.js"></script>
         <script src="js/controllers/ContactController.js"></script>
         <!-- Use hosted files when deploying to web server -->
     </head>
@@ -34,6 +35,7 @@
 
         <!-- Add your site or application content here -->
         <div class="container main-page">
+
             <!-- Page header: cover photo -->
             <div class="page-header">
                 <div class="cover-picture">
@@ -52,14 +54,23 @@
                                 <li><a href="#/education">Education</a></li>
                                 <li><a href="#/projects">Projects</a></li>
                                 <li><a href="#/languages">Languages</a></li>
-                                <li><a href="#/Activities">Activities</a></li>
+                                <li><a href="#/activities">Activities</a></li>
                                 <li><a href="#/contact">Contact</a></li> 
                             </ul>
                         </div>
                     </nav>
                 </div>
             </div>
+
+            <!-- Body content -->
             <div ng-view class="main-content"></div>
+
+            <!-- Footer -->
+            <hr>
+            <footer>
+                <p>Footer</p>
+                <p>Portfolio - LE NGUYEN MINH HUONG</p>
+            </footer>
         </div>
 
         <!--script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
