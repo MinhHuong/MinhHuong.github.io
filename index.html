@@ -13,6 +13,7 @@
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
         <script src="js/vendor/jquery-1.11.3.min.js"></script>
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
         <script src="js/vendor/angular.min.js"></script>
@@ -25,6 +26,10 @@
         <!-- Controllers -->
         <script src="js/controllers/HomeController.js"></script>
         <script src="js/controllers/ExperiencesController.js"></script>
+        <script src="js/controllers/EducationController.js"></script>
+        <script src="js/controllers/ProjectsController.js"></script>
+        <script src="js/controllers/LanguagesController.js"></script>
+        <script src="js/controllers/ActivitiesController.js"></script>
         <script src="js/controllers/ContactController.js"></script>
         <!-- Use hosted files when deploying to web server -->
     </head>
@@ -39,7 +44,7 @@
             <!-- Page header: cover photo -->
             <div class="page-header">
                 <div class="cover-picture">
-                    <img src="/img/portrait.jpg" id="my-portrait">
+                    <img src="/img/portrait_2.jpg" id="my-portrait">
                     <span class="my-name"><span style="color:#1c1c1c;">Le Nguyen</span> <span style="color:#bdbdbd;">Minh Huong</span></span>
                 </div>
                 <div>
@@ -66,10 +71,8 @@
             <div ng-view class="main-content"></div>
 
             <!-- Footer -->
-            <hr>
             <footer>
-                <p>Footer</p>
-                <p>Portfolio - LE NGUYEN MINH HUONG</p>
+                <p>Minh Huong LE NGUYEN - Personal portfolio made by me</p>
             </footer>
         </div>
 

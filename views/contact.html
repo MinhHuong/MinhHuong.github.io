@@ -1,5 +1,19 @@
 <div class="main">
-	<p>This is the contact page</p>
-	<p>{{ email }}</p>
-	<p>{{ phone }}</p>
+	<h2 class="welcome-title">Feel free to contact me !</h2>
+	<table class="table contact-detail">
+		<thead>
+			<th>BASIC INFORMATION</th>
+			<th>SOCIAL NETWORKS</th>
+		</thead>
+		<tbody>
+			<tr>
+				<td><i class="fa fa-envelope-o" aria-hidden="true"></i> {{ email }}</td>
+				<td><i class="fa fa-linkedin-square" aria-hidden="true"></i> <a href="{{ linkedin }}" target="_blank">Huong LE</a></td>
+			</tr>
+			<tr>
+				<td><i class="fa fa-mobile" aria-hidden="true"></i> {{ phone }}</td>
+				<td><i class="fa fa-github" aria-hidden="true"></i> <a href="{{ github }}" target="_blank">Minh Huong's github</a></td>
+			</tr>
+		</tbody>
+	</table>
 </div>
