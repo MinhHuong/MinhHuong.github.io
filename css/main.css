@@ -219,6 +219,11 @@ h2.welcome-title > i {
 /* ==================
     Languages
     ================= */
+div.lang-info {
+  width: 80%;
+  margin: 1.5em auto;
+}
+
 div.lang-info-flag > img {
     text-align: center;
 }
