@@ -117,6 +117,21 @@ body {
 
 /***** Header *****/
 
+.page-header > .lang-switching {
+    display: inline;
+    position: absolute;
+    top: 0;
+}
+
+.page-header > .lang-switching > .btn-link {
+    margin: 0;
+    padding-right: 0;
+}
+
+.page-header img {
+    width: 25px;
+}
+
 /* Cover */
 .cover-picture {
     width: 100%;
@@ -217,6 +232,23 @@ h2.welcome-title > i {
 }
 
 /* ==================
+    Contact
+    ================= */
+div.education-logo {
+    text-align: center;
+}
+
+div.education-logo > img {
+    width: 80%;
+}
+
+div.education-info {
+    border-left: 10px dotted #A4A4A4;
+    padding-left: 25px;
+    margin-bottom: 60px;
+}
+
+/* ==================
     Languages
     ================= */
 div.lang-info {
@@ -226,6 +258,8 @@ div.lang-info {
 
 div.lang-info-flag > img {
     text-align: center;
+    width: 8em;
+    height: 8em;
 }
 
 /* ==================

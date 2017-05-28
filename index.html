@@ -22,7 +22,8 @@
 
         <!-- Module -->
         <script src="js/main.js"></script>
-
+        <script src="js/angular-translate.js"></script>
+        <script src="js/angular-translate-loader-static-files.js"></script>
         <!-- Controllers -->
         <script src="js/controllers/HomeController.js"></script>
         <script src="js/controllers/ExperiencesController.js"></script>
@@ -39,8 +40,7 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
-        <div class="container main-page">
-
+        <div ng-controller='Ctrl' class="container main-page">
             <!-- Page header: cover photo -->
             <div class="page-header">
                 <div class="cover-picture">
@@ -50,6 +50,14 @@
                         <span style="color:#1c1c1c;">Le Nguyen</span> 
                     </span>
                 </div>
+                <div class="lang-switching">
+                    <button ng-click="changeLanguage('fr')" class="btn-link">
+                        <img src="/img/ic_fr.png">
+                    </button>
+                    <button ng-click="changeLanguage('en')" class="btn-link">
+                        <img src="/img/ic_en.png">
+                    </button>
+                </div>
                 <div>
                     <nav class="navbar navbar-inverse">
                         <div class="container-fluid">
@@ -57,13 +65,13 @@
                                 <a class="my-navbar-brand" href="#/home">Huong's<br/>portfolio</a>
                             </div>
                             <ul class="nav navbar-nav">
-                                <li><a href="#/home">Home</a></li>
-                                <li><a href="#/experiences">Experiences</a></li>
-                                <li><a href="#/education">Education</a></li>
-                                <li><a href="#/projects">Projects</a></li>
-                                <li><a href="#/languages">Languages</a></li>
-                                <li><a href="#/activities">Activities</a></li>
-                                <li><a href="#/contact">Contact</a></li> 
+                                <li><a href="#/home" translate="MENU_HOME">Home</a></li>
+                                <li><a href="#/experiences" translate="MENU_EXP">Experiences</a></li>
+                                <li><a href="#/education" translate="MENU_EDU">Education</a></li>
+                                <li><a href="#/projects" translate="MENU_PROJ">Projects</a></li>
+                                <li><a href="#/languages" translate="MENU_LANG">Languages</a></li>
+                                <li><a href="#/activities" translate="MENU_ACTV">Activities</a></li>
+                                <li><a href="#/contact" translate="MENU_CONTACT">Contact</a></li> 
                             </ul>
                         </div>
                     </nav>

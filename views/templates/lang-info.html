@@ -1,11 +1,14 @@
 <div class="row lang-info well">
-	<div class="col-sm-3 col-md-3 lang-info-flag">
+	<div class="col-sm-2 col-md-2 lang-info-flag">
 		<img src="{{ langInfo.img }}">
 	</div>
-	<div class="col-sm-9 col-md-9 lang-info-desc">
+	<div class="col-sm-10 col-md-10 lang-info-desc">
 		<h3>{{ langInfo.nameLang }}</h3>
 			<p>
 				{{ langInfo.description }}
+			</p>
+			<p>
+				<b>Certificate:</b> <a href="{{ langInfo.certificateLink }}" target="_blank">{{ langInfo.certificate }}</a>
 			</p>
 	</div>
 </div>
