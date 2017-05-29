@@ -35,14 +35,6 @@ app.config(['$routeProvider', function($routeProvider) {
 		});
 }]);
 
-var translationEN = {
-	TEST: "hello"
-};
-
-var translationFR = {
-	TEST: "bonjour"
-};
-
 app.config(['$translateProvider', function ($translateProvider) {
   // add translation tables
   /*$translateProvider.translations('en', translationEN);
@@ -51,13 +43,13 @@ app.config(['$translateProvider', function ($translateProvider) {
   $translateProvider.fallbackLanguage('en');*/
    $translateProvider
   .useStaticFilesLoader({
-    prefix: 'translations/',
+    prefix: '/translations/',
     suffix: '.json'
   })
   .preferredLanguage('en');
 }]);
 
-app.controller('Ctrl', ['$translate', '$scope', function ($translate, $scope) {
+app.controller('LanguageSwitchingController', ['$translate', '$scope', function ($translate, $scope) {
   $scope.changeLanguage = function (langKey) {
     $translate.use(langKey);
   };

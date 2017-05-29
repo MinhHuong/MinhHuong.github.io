@@ -1,10 +1,34 @@
 {
-	"TEST": "bonjour",
 	"MENU_HOME": "Home",
 	"MENU_EXP": "Experiences",
 	"MENU_EDU": "Education",
 	"MENU_PROJ": "Projects",
 	"MENU_LANG": "Languages",
 	"MENU_ACTV": "Activities",
-	"MENU_CONTACT": "Contact"
+	"MENU_CONTACT": "Contact",
+
+	"FOOTER": "Minh Huong LE NGUYEN - My personal page",
+
+	"HOME_WELCOME": "Welcome,",
+	"HOME_CONTENT": "Hello and welcome to my personal page, where you can get to know me further and have a quick look at my journey, throughout some important periods of my life.",
+
+	"EDU_WELCOME": "My study,",
+	"EDU_PUF_SCHOOL": "French University Pole (PUF), Ho Chi Minh city, Vietnam",	
+	"EDU_MASTERPUF_DEGREE": "Master Informatics, specialized in Network",
+	"EDU_MASTERPUF": "The teaching of this Master program is delivered in English by two universities in France:",
+	"EDU_MASTERPUF_BORD": "<b>University of Bordeaux:</b> teaching units of Software Engineer",
+	"EDU_MASTERPUF_UPMC": "<b>University of Pierre and Marie Curie:</b> teaching units of Network",
+	"EDU_MASTERPUF_MISC": "I was awarded a <b>merit-based scholarship</b> awarded by PUF that covers 75% of tuition fees (~ 2200$).",
+	"EDU_BACHELORPUF_DEGREE": "Bachelor of Computer Science",
+	"EDU_BACHELORPUF": "This program was delivered in French by two universities in France, at the end of the program I received two diploma:",
+	"EDU_BACHELORPUF_BORD": "<b>University of Bordeaux:</b> Diplome Universitaire de Technologie (DUT) delivered in 2015",
+	"EDU_BACHELORPUF_UPMC": "<b>University of Pierre and Marie Curie:</b> Bachelor degree of Computer Science delivered in 2016",
+	"EDU_BACHELORPUF_MISC": "I was awarded a <b>merit-based scholarship</b> awarded by PUF that covers 100% of tuition fees during all three years (~ 2080$ each year).",
+	"EDU_HS_TITLE": "High school diploma",
+	"EDU_HS_SCHOOL": "Le Hong Phong high school, Ho Chi Minh city, Vietnam",
+	"EDU_HS": "I followed the bilingual program French - Vietnamese, which strongly focused on <b>natural science</b> (Maths, Physics, Chemistry) and extended my knowledge of French language with more than 1000 hours of practice class during my three years in high school.",
+
+	"CONTACT_WELCOME": "Feel free to contact me !",
+	"CONTACT_HDR_BASICINFO": "BASIC INFORMATION",
+	"CONTACT_HDR_SOCIAL": "SOCIAL NETWORKS"
 }

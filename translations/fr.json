@@ -1,10 +1,34 @@
 {
-	"TEST": "bonjour",
 	"MENU_HOME": "Accueil",
 	"MENU_EXP": "Expériences",
 	"MENU_EDU": "Éducation",
 	"MENU_PROJ": "Projets",
 	"MENU_LANG": "Langages",
 	"MENU_ACTV": "Activités",
-	"MENU_CONTACT": "Contact"
+	"MENU_CONTACT": "Contact",
+
+	"FOOTER": "Minh Huong LE NGUYEN - Ma page personnelle",
+
+	"HOME_WELCOME": "Bienvenue,",
+	"HOME_CONTENT": "Bonjour et bienvenue à ma page personnelle, où vous pourrez me connaitre davantage et jeter un coup d'oeil sur mon parcours professionnel, tout au long de certaines périodes importantes de ma vie.",
+
+	"EDU_WELCOME": "Mon parcours scolaire,",
+	"EDU_PUF_SCHOOL": "Pôle Universitaire Francais, Ho Chi Minh ville, Vietnam",	
+	"EDU_MASTERPUF_DEGREE": "Master Informatique, spécialisé Réseaux",
+	"EDU_MASTERPUF": "L'enseignement du programme Master Informatique à PUF est délivré en Anglais par deux universités en France:",
+	"EDU_MASTERPUF_BORD": "<b>Université de Bordeaux,</b> qui enseigne des UEs de Génie Logiciel",
+	"EDU_MASTERPUF_UPMC": "<b>Université de Pierre et Marie Curie,</b> qui enseigne des UEs de Réseaux",
+	"EDU_MASTERPUF_MISC": "Pour cette année universitaire, j'ai bénéficié d'une <b>bourse d'études</b> accordée par PUF couvrant 75% du frais de scolarité (le montant de bourse s'élève à 2200$).",
+	"EDU_BACHELORPUF_DEGREE": "Licence Informatique",
+	"EDU_BACHELORPUF": "Ce programme est enseigné en francais par deux universités en France, ce qui m'a permis d'obtenir deux diplômes à la fin de la Licence:",
+	"EDU_BACHELORPUF_BORD": "<b>Université de Bordeaux:</b> Diplôme Universitaire de Technologie (DUT) délivré en 2015",
+	"EDU_BACHELORPUF_UPMC": "<b>Université Pierre et Marie Curie:</b> Licence Informatique délivrée en 2016",
+	"EDU_BACHELORPUF_MISC": "Durant mes trois années en Licence, j'ai bénéficié d'une <b>bourse d'excellence</b> accordée par PUF couvrant la totalité de mes frais de scolarité (le montant de bourse s'élève à 2080$ chaque année).",
+	"EDU_HS_TITLE": "Baccalauréat",
+	"EDU_HS_SCHOOL": "Lycée Le Hong Phong, Ho Chi Minh ville, Vietnam",
+	"EDU_HS": "J'ai poursuivi le programme bilingue Francais - Vietnamien, qui a été fortement concentré sur les matières de <b>science naturelle</b> (Maths, Physique, Chimie) et qui a renforcé mon usage de la langue francaise avec plus de 1000 heures de pratique durant les trois années en lycée.",
+
+	"CONTACT_WELCOME": "N'hésitez pas à me contacter !",
+	"CONTACT_HDR_BASICINFO": "INFORMATION GÉNÉRALE",
+	"CONTACT_HDR_SOCIAL": "RÉSEAUX SOCIAUX"
 }

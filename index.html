@@ -24,6 +24,7 @@
         <script src="js/main.js"></script>
         <script src="js/angular-translate.js"></script>
         <script src="js/angular-translate-loader-static-files.js"></script>
+
         <!-- Controllers -->
         <script src="js/controllers/HomeController.js"></script>
         <script src="js/controllers/ExperiencesController.js"></script>
@@ -40,7 +41,7 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
-        <div ng-controller='Ctrl' class="container main-page">
+        <div ng-controller='LanguageSwitchingController' class="container main-page">
             <!-- Page header: cover photo -->
             <div class="page-header">
                 <div class="cover-picture">
@@ -62,7 +63,7 @@
                     <nav class="navbar navbar-inverse">
                         <div class="container-fluid">
                             <div class="my-navbar-header">
-                                <a class="my-navbar-brand" href="#/home">Huong's<br/>portfolio</a>
+                                <a class="my-navbar-brand" href="#/home">Huong's<br/>profile</a>
                             </div>
                             <ul class="nav navbar-nav">
                                 <li><a href="#/home" translate="MENU_HOME">Home</a></li>
@@ -83,7 +84,7 @@
 
             <!-- Footer -->
             <footer>
-                <p>Minh Huong LE NGUYEN - Personal portfolio made by me</p>
+                <p translate="FOOTER">Minh Huong LE NGUYEN - My personal page</p>
             </footer>
         </div>
 
