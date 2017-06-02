@@ -1,8 +1,56 @@
 <!-- LANGUAGES -->
 
 <div class="main" ng-controller="LanguagesController">
-	<h2 class="welcome-title"><i class="fa fa-globe" aria-hidden="true"></i> I can speak . . .</h2>
-	<language info="en"></language>
+	<h2 class="welcome-title">
+		<i class="fa fa-globe" aria-hidden="true"></i>
+		<span translate="LANG_WELCOME">I can speak . . .</span>
+	</h2>
+	<!--language info="en"></language>
 	<language info="fr"></language>
-	<language info="vn"></language>
+	<language info="vn"></language-->
+	
+	<!-- EN -->
+	<div class="row lang-info well">
+		<div class="col-sm-2 col-md-2 lang-info-flag">
+			<img src="img/en_flag.png">
+		</div>
+		<div class="col-sm-10 col-md-10 lang-info-desc">
+			<h3 translate="LANG_EN">English</h3>
+				<p translate="LANG_EN_DESC">
+					Working proficiency: I can read, write and engage in daily communication.
+				</p>
+				<p>
+					<b translate="LANG_CERTIFICATE">Certificate:</b> <a href="" target="_blank">IELTS 8.0</a>
+				</p>
+		</div>
+	</div>
+
+	<!-- FR -->
+	<div class="row lang-info well">
+		<div class="col-sm-2 col-md-2 lang-info-flag">
+			<img src="img/fr_flag.png">
+		</div>
+		<div class="col-sm-10 col-md-10 lang-info-desc">
+			<h3 translate="LANG_FR">French</h3>
+				<p translate="LANG_FR_DESC">
+					Bilingual proficiency: I have learnt French since I was 6.
+				</p>
+				<p>
+					<b translate="LANG_CERTIFICATE">Certificate:</b> <a href="https://tinyurl.com/yc3qdyeq" target="_blank">DELF B2</a>
+				</p>
+		</div>
+	</div>
+
+	<!-- VN -->
+	<div class="row lang-info well">
+		<div class="col-sm-2 col-md-2 lang-info-flag">
+			<img src="img/vn_flag.png">
+		</div>
+		<div class="col-sm-10 col-md-10 lang-info-desc">
+			<h3 translate="LANG_VN">Vietnamese</h3>
+				<p translate="LANG_VN_DESC">
+					Mother tongue
+				</p>
+		</div>
+	</div>
 </div>

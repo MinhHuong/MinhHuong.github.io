@@ -1,4 +1,5 @@
 {
+	"MENU_PROFILE": "Profile de<br/> Huong",
 	"MENU_HOME": "Accueil",
 	"MENU_EXP": "Expériences",
 	"MENU_EDU": "Éducation",
@@ -28,7 +29,16 @@
 	"EDU_HS_SCHOOL": "Lycée Le Hong Phong, Ho Chi Minh ville, Vietnam",
 	"EDU_HS": "J'ai poursuivi le programme bilingue Francais - Vietnamien, qui a été fortement concentré sur les matières de <b>science naturelle</b> (Maths, Physique, Chimie) et qui a renforcé mon usage de la langue francaise avec plus de 1000 heures de pratique durant les trois années en lycée.",
 
-	"CONTACT_WELCOME": "N'hésitez pas à me contacter !",
+	"LANG_WELCOME": "Je peux parler . . .",
+	"LANG_CERTIFICATE": "Certificat",
+	"LANG_EN": "Anglais",
+	"LANG_EN_DESC": "Communication dans l'environnement professionnel: lire, écrire les documents en anglais et participer aux conversations quotidiennes.",
+	"LANG_FR": "Francais",
+	"LANG_FR_DESC": "Bilingue: langage appris depuis l'âge de 6 ans.",
+	"LANG_VN": "Vietnamien",
+	"LANG_VN_DESC": "Langue maternelle",
+
+	"CONTACT_WELCOME": "N'hésitez pas  à me contacter !",
 	"CONTACT_HDR_BASICINFO": "INFORMATION GÉNÉRALE",
 	"CONTACT_HDR_SOCIAL": "RÉSEAUX SOCIAUX"
 }

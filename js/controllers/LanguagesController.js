@@ -1,5 +1,5 @@
 app.controller('LanguagesController', ["$scope", function($scope) {
-	$scope.vn = { 
+	/*$scope.vn = { 
 		img: "img/vn_flag.png", 
 		nameLang: "Vietnamese", 
 		description: "Mother tongue",
@@ -19,7 +19,7 @@ app.controller('LanguagesController', ["$scope", function($scope) {
 		description: "Bilingual proficiency: I have learnt French since I was 6.",
 		certificate: "DELF B2",
 		certificateLink: "https://tinyurl.com/yc3qdyeq"
-	};
+	};*/
 }]);
 
 app.directive('language', function() {

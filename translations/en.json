@@ -1,4 +1,5 @@
 {
+	"MENU_PROFILE": "Huong's<br/> profile",
 	"MENU_HOME": "Home",
 	"MENU_EXP": "Experiences",
 	"MENU_EDU": "Education",
@@ -27,6 +28,15 @@
 	"EDU_HS_TITLE": "High school diploma",
 	"EDU_HS_SCHOOL": "Le Hong Phong high school, Ho Chi Minh city, Vietnam",
 	"EDU_HS": "I followed the bilingual program French - Vietnamese, which strongly focused on <b>natural science</b> (Maths, Physics, Chemistry) and extended my knowledge of French language with more than 1000 hours of practice class during my three years in high school.",
+
+	"LANG_WELCOME": "I can speak . . .",
+	"LANG_CERTIFICATE": "Certificate",
+	"LANG_EN": "English",
+	"LANG_EN_DESC": "Working proficiency: I can read, write and engage in daily communication.",
+	"LANG_FR": "French",
+	"LANG_FR_DESC": "Bilingual proficiency: I have learnt French since I was 6.",
+	"LANG_VN": "Vietnamese",
+	"LANG_VN_DESC": "Mother tongue",
 
 	"CONTACT_WELCOME": "Feel free to contact me !",
 	"CONTACT_HDR_BASICINFO": "BASIC INFORMATION",
