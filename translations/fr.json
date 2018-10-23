@@ -11,7 +11,7 @@
 	"FOOTER": "Minh Huong LE NGUYEN - Ma page personnelle",
 
 	"HOME_WELCOME": "Bienvenue,",
-	"HOME_CONTENT": "Bonjour et bienvenue à ma page personnelle, où vous pourrez me connaitre davantage et jeter un coup d'oeil sur mon parcours professionnel, tout au long de certaines périodes importantes de ma vie.",
+	"HOME_CONTENT": "Bonjour et bienvenue à ma page personnelle.",
 
 	"EDU_WELCOME": "Mon parcours scolaire,",
 	"EDU_PUF_SCHOOL": "Pôle Universitaire Francais, Ho Chi Minh ville, Vietnam",	
@@ -28,6 +28,8 @@
 	"EDU_HS_TITLE": "Baccalauréat",
 	"EDU_HS_SCHOOL": "Lycée Le Hong Phong, Ho Chi Minh ville, Vietnam",
 	"EDU_HS": "J'ai poursuivi le programme bilingue Francais - Vietnamien, qui a été fortement concentré sur les matières de <b>science naturelle</b> (Maths, Physique, Chimie) et qui a renforcé mon usage de la langue francaise avec plus de 1000 heures de pratique durant les trois années en lycée.",
+
+	"PROJECT_WELCOME": "Mes projets",
 
 	"LANG_WELCOME": "Je peux parler . . .",
 	"LANG_CERTIFICATE": "Certificat",

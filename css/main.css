@@ -232,24 +232,41 @@ h2.welcome-title > i {
 }
 
 /* ==================
-    Contact
+    Education
     ================= */
 div.education-info-wrapper {
     margin-top: 40px;
     margin-bottom: 60px;
+    /*display: flex;*/
 }
 
 div.education-logo {
+    /*flex: 1;*/
     text-align: center;
+    width: 25%;
+    margin-top: 10px;
 }
 
 div.education-logo > img {
-    width: 80%;
+    width: 60%;
 }
 
 div.education-info {
+    /*flex: 1;*/
     border-left: 10px dotted #A4A4A4;
     padding-left: 25px;
+}
+
+/* ==================
+    Projects
+    ================= */
+div.project-info:hover {
+    background-color: #dff0d8;
+    cursor: pointer;
+}
+
+.project-title {
+    line-height: 1.3em;
 }
 
 /* ==================

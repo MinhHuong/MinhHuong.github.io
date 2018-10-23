@@ -11,9 +11,12 @@
 	"FOOTER": "Minh Huong LE NGUYEN - My personal page",
 
 	"HOME_WELCOME": "Welcome,",
-	"HOME_CONTENT": "Hello and welcome to my personal page, where you can get to know me further and have a quick look at my journey, throughout some important periods of my life.",
+	"HOME_CONTENT": "Hello and welcome to my personal page.",
 
-	"EDU_WELCOME": "My study,",
+	"EDU_WELCOME": "My study",
+	"EDU_MASTER1X_DEGREE": "Master 1 Jacques Herbrand | Data Science",
+	"EDU_X_SCHOOL": "École Polytechnique, University Paris Saclay",
+	"EDU_MASTER1X": "One of the specificities of the <a href=\"https://www.universite-paris-saclay.fr/en/education/master/m1-jacques-herbrand-polytechnique#objectifs-pedagogiques\" target=\"_blank\">Jacques Herbrand master<a/> is to devote a significant part of the program to <b>research</b>, whether as a preparation to a career in academia or as the source of industrial innovation.",
 	"EDU_PUF_SCHOOL": "French University Pole (PUF), Ho Chi Minh city, Vietnam",	
 	"EDU_MASTERPUF_DEGREE": "Master Informatics, specialized in Network",
 	"EDU_MASTERPUF": "The teaching of this Master program is delivered in English by two universities in France:",
@@ -28,9 +31,8 @@
 	"EDU_HS_TITLE": "High school diploma",
 	"EDU_HS_SCHOOL": "Le Hong Phong high school, Ho Chi Minh city, Vietnam",
 	"EDU_HS": "I followed the bilingual program French - Vietnamese, which strongly focused on <b>natural science</b> (Maths, Physics, Chemistry) and extended my knowledge of French language with more than 1000 hours of practice class during my three years in high school.",
-	"EDU_MASTER1X_DEGREE": "Master 1 Jacques Herbrand | Data Science",
-	"EDU_X_SCHOOL": "École Polytechnique",
-	"EDU_MASTER1X": "I follow the master 1 at X",
+
+	"PROJECT_WELCOME": "Projects I've participated in",
 
 	"LANG_WELCOME": "I can speak . . .",
 	"LANG_CERTIFICATE": "Certificate",
