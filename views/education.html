@@ -1,84 +1,121 @@
 <!-- EDUCATION -->
 
-<div class="main" ng-controller="EducationController">
-	<h2 class="welcome-title">
-		<i class="fa fa-graduation-cap" aria-hidden="true"></i>
-		<span translate="EDU_WELCOME"> My study</span>
-	</h2>
+<div class="main edu" ng-controller="EducationController">
 
+	<div class="edu-intro intro">
+		<p>So this section is about my study. I enjoy studying, school, reading papers, etc. (stuffs like that, you get the idea). I find academic research fun and indeed that's what I'm aiming to do later (or now) in life.</p>
 
-	<!-- MASTER NETWORK AT PUF -->
-	<div class="row education-info-wrapper">
-		<div class="col-md-3 education-logo">
-			<img src="/img/logo-x.jpg">
-			<img src="/img/logo-saclay.jpg">
-		</div>
-		<div class="col-md-9 education-info">
-			<h3 translate="EDU_MASTER1X_DEGREE"></h3>
-			<h4 translate="EDU_X_SCHOOL"></h4>
-			<p><em>2017 - 2018</em></p>
-			<p translate="EDU_MASTER1X"></p>
-		</div>
+		<p>Here goes some information about my education!</p>
 	</div>
 
-	<!-- MASTER NETWORK AT PUF -->
-	<div class="row education-info-wrapper">
-		<div class="col-md-3 education-logo">
-			<img src="/img/logo_upmc.png">
-			<img src="/img/logo_bordeaux.svg">
-		</div>
-		<div class="col-md-9 education-info">
-			<!--education info="masterNetwork"></education-->
-			<h3 translate="EDU_MASTERPUF_DEGREE">Master Informatics, specialized in Network</h3>
-			<h4 translate="EDU_PUF_SCHOOL">French University Pole, Ho Chi Minh city, Vietnam</h4>
-			<p><em>2016 - 2017</em></p>
-			<p translate="EDU_MASTERPUF">
-				The teaching of this Master program is delivered in English by two universities in France:
-				<ul>
-					<li translate="EDU_MASTERPUF_BORD">University of Bordeaux: teaching units of Software Engineer</li>
-					<li translate="EDU_MASTERPUF_UPMC">University of Pierre and Marie Curie: teaching units of Network</li>
-				</ul>
-				<span translate="EDU_MASTERPUF_MISC">I was awarded a <b>merit-based scholarship</b> that covers 75% of tuition fees (~ 2200$).</span>
-			</p>
-		</div>
-	</div>
-	
+	<table>
+		<tbody>
 
-	<!-- BACHELOR DEGREE IN COMPUTER SCIENCE -->
-	<div class="row education-info-wrapper">
-		<div class="col-md-3 education-logo">
-			<img src="/img/logo_upmc.png">
-			<img src="/img/logo_bordeaux.svg">
-		</div>
-		<div class="col-md-9 education-info">
-			<!--education info="bachelorCS"></education-->
-			<h3 translate="EDU_BACHELORPUF_DEGREE">Bachelor of Computer Science</h3>
-			<h4 translate="EDU_PUF_SCHOOL">French University Pole, Ho Chi Minh city, Vietnam</h4>
-			<p><em>2013 - 2016</em></p>
-			<p translate="EDU_BACHELORPUF">
-				This program was delivered in French by two universities in France, at the end of the program I received two diploma:
-				<ul>
-					<li translate="EDU_BACHELORPUF_BORD"><b>University of Bordeaux:</b> Diplôme Universitaire de Technologie (DUT) (2013 - 2015)</li>
-					<li translate="EDU_BACHELORPUF_UPMC"><b>University of Pierre and Marie Curie:</b> Bachelor degree of Computer Science (2015 - 2016)</li>
-				</ul>
-				<span translate="EDU_BACHELORPUF_MISC">I was awarded a <b>merit-based scholarship</b> that covers 100% of tuition fees during all three years (~ 2080$ each year)</span>
-			</p>
-		</div>
-	</div>
+			<!-- DATA & KNOWLEDGE (TELECOM) -->
+			<tr class="edu-row">
+				<td class="edu-meta">
+					<div>
+						<h1 class="edu-item-year">2018 - 2019</h1>
+						<h2 class="edu-item-school">Télécom ParisTech</h2>
+						<h3 class="edu-item-title">Master 2 | DATA & KNOWLEDGE</h3>	
+						<h4 class="edu-item-location">PARIS, France</h4>
+					</div>
+				</td>
+				<td class="edu-content">
+					<div>
+						<p class="edu-item-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean molestie ipsum dui, vitae scelerisque risus viverra ut. Nunc convallis justo vitae nunc condimentum ultrices et sit amet mi. Sed non fringilla erat. Morbi quis pharetra orci. Nulla vel nibh non nunc porta gravida nec sed ligula. Morbi mattis dui erat, vel pulvinar nisl pretium luctus. Duis eleifend ultrices arcu, eu tincidunt lectus aliquet nec. Sed erat nisl, sodales non justo sed, tempus feugiat orci. Duis molestie, eros et finibus vehicula, diam lorem sagittis ipsum, sed ultrices leo justo mattis purus. Mauris tempor libero sapien. Morbi facilisis lobortis odio, vel fermentum orci fermentum nec. Praesent pretium justo ac semper ultricies. Vivamus accumsan dui libero, sed scelerisque tortor tincidunt in.</p>
+						<div class="edu-logo-div">
+							<img class="edu-logo" src="/img/logo-telecom.jpg" width="60">
+							<img class="edu-logo" src="/img/logo-saclay.jpg" width="100">	
+						</div>
+					</div>
+				</td>
+			</tr>
 
-	<!-- HIGH SCHOOL -->
-	<div class="row education-info-wrapper">
-		<div class="col-md-3 education-logo">
-			<img src="/img/logo_highschool_2.jpg">
+			<!-- DATA SCIENCE (ECOLE POLYTECHNIQUE) -->
+			<tr class="edu-row">
+				<td class="edu-meta">
+					<div>
+						<h1 class="edu-item-year">2017 - 2018</h1>
+						<h2 class="edu-item-school">École Polytechnique</h2>
+						<h3 class="edu-item-title">Master 1 | DATA SCIENCE</h3>	
+						<h4 class="edu-item-location">PALAISEAU, France</h4>
+					</div>
+				</td>
+				<td class="edu-content">
+					<div>
+						<p class="edu-item-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean molestie ipsum dui, vitae scelerisque risus viverra ut. Nunc convallis justo vitae nunc condimentum ultrices et sit amet mi. Sed non fringilla erat. Morbi quis pharetra orci. Nulla vel nibh non nunc porta gravida nec sed ligula. Morbi mattis dui erat, vel pulvinar nisl pretium luctus. Duis eleifend ultrices arcu, eu tincidunt lectus aliquet nec. Sed erat nisl, sodales non justo sed, tempus feugiat orci. Duis molestie, eros et finibus vehicula, diam lorem sagittis ipsum, sed ultrices leo justo mattis purus. Mauris tempor libero sapien. Morbi facilisis lobortis odio, vel fermentum orci fermentum nec. Praesent pretium justo ac semper ultricies. Vivamus accumsan dui libero, sed scelerisque tortor tincidunt in.</p>
+						<div class="edu-logo-div">
+							<img class="edu-logo" src="/img/logo-x.jpg" width="150">
+							<img class="edu-logo" src="/img/logo-saclay.jpg" width="100">
+						</div>
+					</div>
+				</td>
+			</tr>
+
+			<!-- COMPUTER SCIENCE (PUF) -->
+			<tr class="edu-row">
+				<td class="edu-meta">
+					<div>
+						<h1 class="edu-item-year">2013 - 2016</h1>
+						<h2 class="edu-item-school">Pôle Universitaire Français</h2>
+						<h3 class="edu-item-title">Bachelor | COMPUTER SCIENCE</h3>
+						<h4 class="edu-item-location">HO CHI MINH, Vietnam</h4>
+					</div>
+				</td>
+				<td class="edu-content">
+					<div>
+						<p class="edu-item-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean molestie ipsum dui, vitae scelerisque risus viverra ut. Nunc convallis justo vitae nunc condimentum ultrices et sit amet mi. Sed non fringilla erat. Morbi quis pharetra orci. Nulla vel nibh non nunc porta gravida nec sed ligula. Morbi mattis dui erat, vel pulvinar nisl pretium luctus. Duis eleifend ultrices arcu, eu tincidunt lectus aliquet nec. Sed erat nisl, sodales non justo sed, tempus feugiat orci. Duis molestie, eros et finibus vehicula, diam lorem sagittis ipsum, sed ultrices leo justo mattis purus. Mauris tempor libero sapien. Morbi facilisis lobortis odio, vel fermentum orci fermentum nec. Praesent pretium justo ac semper ultricies. Vivamus accumsan dui libero, sed scelerisque tortor tincidunt in.</p>
+						<div class="edu-logo-div">
+							<img class="edu-logo" src="/img/logo_upmc.png" width="150">
+							<img class="edu-logo" src="/img/logo-bordeaux.png" width="150">
+						</div>
+					</div>
+				</td>
+			</tr>
+
+			<!-- HIGH SCHOOL (LE HONG PHONG) -->
+			<tr class="edu-row">
+				<td class="edu-meta">
+					<div>
+						<h1 class="edu-item-year">2010 - 2013</h1>
+						<h2 class="edu-item-school">Le Hong Phong high school</h2>
+						<h3 class="edu-item-title">Natural science-focused</h3>
+						<h4 class="edu-item-location">HO CHI MINH, Vietnam</h4>
+					</div>
+				</td>
+				<td class="edu-content">
+					<div>
+						<p class="edu-item-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean molestie ipsum dui, vitae scelerisque risus viverra ut. Nunc convallis justo vitae nunc condimentum ultrices et sit amet mi. Sed non fringilla erat. Morbi quis pharetra orci. Nulla vel nibh non nunc porta gravida nec sed ligula. Morbi mattis dui erat, vel pulvinar nisl pretium luctus. Duis eleifend ultrices arcu, eu tincidunt lectus aliquet nec. Sed erat nisl, sodales non justo sed, tempus feugiat orci. Duis molestie, eros et finibus vehicula, diam lorem sagittis ipsum, sed ultrices leo justo mattis purus. Mauris tempor libero sapien. Morbi facilisis lobortis odio, vel fermentum orci fermentum nec. Praesent pretium justo ac semper ultricies. Vivamus accumsan dui libero, sed scelerisque tortor tincidunt in.</p>
+						<div class="edu-logo-div">
+							<img class="edu-logo" src="/img/logo_upmc.png" width="150">
+							<img class="edu-logo" src="/img/logo-bordeaux.png" width="150">
+						</div>
+					</div>
+				</td>
+			</tr>
+
+		</tbody>
+	</table>
+
+	<!-- <div class="edu-item well">
+		<div class="edu-meta">
+			<img class="edu-logo" src="/img/logo-telecom.jpg" />
+			<h1 class="edu-item-year">2018 - 2019</h1>
+			<h2 class="edu-item-school">Télécom ParisTech</h2>
+			<h3 class="edu-item-title">Master 2 | Data & Knowledge</h3>	
 		</div>
-		<div class="col-md-9 education-info">
-			<!--education info="highschool"></education-->
-			<h3 translate="EDU_HS_TITLE">High school diploma</h3>
-			<h4 translate="EDU_HS_SCHOOL">Le Hong Phong high school, Ho Chi Minh city, Vietnam</h4>
-			<p><em>2010 - 2013</em></p>
-			<p translate="EDU_HS">
-				I followed the bilingual program French - Vietnamese, which strongly focused on natural science (Maths, Physics, Chemistry) and extended my knowledge of French language.
-			</p>
+		<div class="edu-content">
+			<p class="edu-item-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean molestie ipsum dui, vitae scelerisque risus viverra ut. Nunc convallis justo vitae nunc condimentum ultrices et sit amet mi. Sed non fringilla erat. Morbi quis pharetra orci. Nulla vel nibh non nunc porta gravida nec sed ligula. Morbi mattis dui erat, vel pulvinar nisl pretium luctus. Duis eleifend ultrices arcu, eu tincidunt lectus aliquet nec. Sed erat nisl, sodales non justo sed, tempus feugiat orci. Duis molestie, eros et finibus vehicula, diam lorem sagittis ipsum, sed ultrices leo justo mattis purus. Mauris tempor libero sapien. Morbi facilisis lobortis odio, vel fermentum orci fermentum nec. Praesent pretium justo ac semper ultricies. Vivamus accumsan dui libero, sed scelerisque tortor tincidunt in.</p>
 		</div>
-	</div>
+	</div> -->
+<!-- 
+	<div class="edu-item well">
+		<img class="edu-logo" src="/img/logo-telecom.jpg" />
+		<h1 class="edu-item-year">2018 - 2019</h1>
+		<h2 class="edu-item-school">Télécom ParisTech</h2>
+		<h3 class="edu-item-title">Master 2 | Data & Knowledge</h3>
+		<p class="edu-item-content">Content of the master program</p>
+	</div>	 -->
+
 </div>

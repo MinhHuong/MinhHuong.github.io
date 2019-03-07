@@ -14,6 +14,9 @@
         <!-- Place favicon.ico in the root directory -->
 
         <link rel="stylesheet" href="css/bootstrap.min.css">
+
+        <!-- Latest compiled and minified CSS -->
+
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/main.css">
         <link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.min.css">
@@ -44,14 +47,13 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
-        <div ng-controller='LanguageSwitchingController' class="container main-page">
+        <div ng-controller='LanguageSwitchingController' class="container-fluid main-page">
             <!-- Page header: cover photo -->
             <div class="page-header">
                 <div class="cover-picture">
-                    <img src="/img/portrait_3.jpg" id="my-portrait">
+                    <!-- <img src="/img/portrait_3.jpg" id="my-portrait"> -->
                     <span class="my-name">
-                        <span style="color:#bdbdbd;">Minh Huong</span>
-                        <span style="color:#1c1c1c;">Le Nguyen</span> 
+                        <span style="color:#ffffff;">MINH HUONG</span><br/><span style="color:#1c1c1c;">LE NGUYEN</span> 
                     </span>
                 </div>
                 <div class="lang-switching">
@@ -69,7 +71,7 @@
                                 <a class="my-navbar-brand" href="#/home" translate="MENU_PROFILE">Huong's<br/>profile</a>
                             </div>
                             <ul class="nav navbar-nav">
-                                <li><a href="#/home" translate="MENU_HOME">Home</a></li>
+                                <li classs="nav-item"><a href="#/home" translate="MENU_HOME">Home</a></li>
                                 <li><a href="#/experiences" translate="MENU_EXP">Experiences</a></li>
                                 <li><a href="#/education" translate="MENU_EDU">Education</a></li>
                                 <li><a href="#/projects" translate="MENU_PROJ">Projects</a></li>
