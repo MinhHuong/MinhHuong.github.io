@@ -2,10 +2,39 @@
 
 <div class="main" ng-controller="ProjectsController">
 	<div class="project-intro intro">
-		<p>Here you will find the details of the projects I've been part of. Some of them are proper research projects, some others are simply school projects that I really had fun doing.</p>
+		<p>Here you will find the details of the projects I've been part of. Some of them are research projects, some others are simply school projects that I really had fun doing.</p>
 	</div>
 
 	<div class="row">
+		<!-- SSL in streaming -->
+		<div class="col-sm-1 col-md-4 project-item">
+			<h1 class="project-title">
+				Semi-supervised learning for evolving data streams
+			</h1>
+			<h2 class="project-location">LTCI, Télécom Paris</h2>
+			<h3 class="project-time">March 2018 - August 2019</h3>
+			<p class="project-content">
+				<p>
+					My role includes: 
+					<ul>
+						<li>studying the problem of <b>semi-supervised learning</b> in <b>evolving data streams</b></li>
+						<li>implementing new algorithms to mine streams that have very few labeled data to perform classification</li>
+					</ul>
+				</p>
+				<p>
+					The new algorithms are to be integrated in MOA (<a href="https://moa.cms.waikato.ac.nz/" target="_blank">Massive Online Analysis</a>), a software environment designed for implementing and running experiments on online, evolving data streams.
+				</p>
+				<p>I take part in this project while being a <a href="http://localhost:8042/#/experiences" target="_blank">research intern at LTCI, Télécom Paris</a>.</p>
+			</p>
+			<div>
+				<span class="label label-project">research</span>
+				<span class="label label-project">java</span>
+				<span class="label label-project">python</span>
+				<span class="label label-project">machine learning</span>
+				<span class="label label-project">streaming</span>
+			</div>
+		</div>
+
 		<!-- ConnectionLens -->
 		<div class="col-sm-1 col-md-4 project-item">
 			<h1 class="project-title">
@@ -14,12 +43,55 @@
 			</h1>
 			<h2 class="project-location">INRIA Saclay, CEDAR team</h2>
 			<h3 class="project-time">October 2017 - August 2018</h3>
-			<p class="project-content"></p>
+			<p class="project-content">
+				<p>
+					A research project in the domain of <b>fact-checking</b> that aims to develop a framework for fake news detection. My contribution was:
+					<ul>
+						<li>to retrieve named entities from raw text documents (information extraction)</li>
+						<li>to parse information from RDF knowledge graphs</li>
+					</ul>
+				</p>
+				<p>
+					The project results in the <b>publication of a scientific demo paper</b> in <a href="http://vldb2018.lncc.br/accepted-demonstrations.html" target="_blank">VLDB 2018</a>. 
+					The title of the paper is <em>ConnectionLens: Finding Connections Across Heterogeneous Data Sources</em>. The paper can be accessed <a href="http://www.vldb.org/pvldb/vol11/p2030-chanial.pdf" target="_blank">here</a>.
+				</p>
+				<p>I took part in this project while being a <a href="research intern at LTCI, Télécom Paris" target="_blank">research intern at INRIA Saclay</a>.</p>
+			</p>
 			<div>
 				<span class="label label-project">research</span>
+				<span class="label label-project">java</span>
 				<span class="label label-project">data integration</span>
 			</div>
 		</div>
+
+		<!-- Social network analysis -->
+		<div class="col-sm-1 col-md-4 project-item">
+			<h1 class="project-title">
+				Social network analysis:<br/>
+				<span style="font-size:0.85em;">Amazon co-purchasing network</span>
+			</h1>
+			<h2 class="project-location">Télécom ParisTech</h2>
+			<h3 class="project-time">January 2019</h3>
+			<p class="project-content">
+				<p>
+					The goal is to apply the techniques and knowledge of network science to analyze a social (or not) network. 
+					I chose to analyze the <a href="https://snap.stanford.edu/data/amazon0601.html" target="_blank">network of co-purchased items of Amazon</a>.					
+				</p>
+				<p>
+					The report that contains my analysis and the insights I have drawn from this network can be found <a href="https://drive.google.com/open?id=1cGtoUSi1JSyhzNd6OwaQRTy9ELki_3zG" target="_blank">here</a>.
+				</p>
+			</p>
+			<div>
+				<span class="label label-project">network science</span>
+				<span class="label label-project">graph</span>
+				<span class="label label-project">networkx</span>
+				<span class="label label-project">python</span>
+			</div>
+		</div>
+
+	</div>
+
+	<div class="row">
 
 		<!-- Link prediction -->
 		<div class="col-sm-1 col-md-4 project-item">
@@ -28,57 +100,59 @@
 			</h1>
 			<h2 class="project-location">École Polytechnique</h2>
 			<h3 class="project-time">March 2018</h3>
-			<p class="project-content">Content
-			A <a href="/docs/link-prediction-citation-network.pdf" target="_blank">link</a> here</p></p>
+			<p class="project-content">
+				<p>
+					A dataset of scientific articles is given in form of a graph, where nodes are the articles and edges are the citation of one article to another. Some of the edges are missing
+				</p>
+				<p>
+					The aim is to find those missing links using different types of data (graphs, raw texts, numbers). We have to use various techniques of:
+					<ul>
+						<li><b>text mining:</b> text similarity, word embedding, etc.</li>
+						<li><b>machine learning:</b> SVM, random forest, deep learning, etc.</li>
+					</ul>
+					to recover the missing links.
+				</p>
+				<p>The report of the project can be found <a href="/docs/link-prediction-citation-network.pdf" target="_blank">here</a>.</p>
 			<div>
-				<span class="label label-project">school</span>
 				<span class="label label-project">machine learning</span>
 				<span class="label label-project">text mining</span>
+				<span class="label label-project">python</span>
 			</div>
 		</div>
 
-		<!-- Social network analysis -->
-		<div class="col-sm-1 col-md-4 project-item">
-			<h1 class="project-title">
-				Social network analysis (Amazon co-purchasing network)
-			</h1>
-			<h2 class="project-location">Télécom ParisTech</h2>
-			<h3 class="project-time">January 2019</h3>
-			<p class="project-content">Content</p>
-			<div>
-				<span class="label label-project">network science</span>
-				<span class="label label-project">graph</span>
-			</div>
-		</div>
-		
-	</div>
-
-	<div class="row">
 		<!-- WSN-PN -->
 		<div class="col-sm-1 col-md-4 project-item">
 			<h1 class="project-title">
 				Wireless Sensor Network - Petri Net (WSN-PN)
 			</h1>
-			<h2 class="project-location">Pôle Universitaire Français &</h2>
-			<h 2class="project-location">University of Technology of Vietnam</h2>
+			<h2 class="project-location">Pôle Universitaire Français & <br/> University of Technology of Vietnam</h2>
 			<h3 class="project-time">April 2016 - July 2016</h3>
-			<p class="project-content">Content</p>
+			<p class="project-content">
+				<p>WSN's are an emerging technology of the network domain that uses low-cost wireless devices to provide high-resolution sensing of the environment. However, a <b>congestion</b> on the network may make a node dysfunctional.
+				<p>WSN-PN is a software that modelizes a real-world sensor networks, detects and prevents congestion. My role is to integrate the <b>probability of congestion</b> for searching paths in WSN-PN. The report is found <a href="https://drive.google.com/file/d/0BwC_983CVD2xa0MwMjduOEQ3MFk/view?usp=sharing" target="_blank">here</a>.</p>
+			</p>
 			<div>
-				<span class="label label-project">network modeling</span>
+				<span class="label label-project">model checking</span>
+				<span class="label label-project">C#</span>
 				<span class="label label-project">research</span>
 			</div>
 		</div>
 
-		<!-- Survey Project -->
+		<!-- Survey application done at Linkbynet -->
 		<div class="col-sm-1 col-md-4 project-item">
 			<h1 class="project-title">
 				Community survey in the company
 			</h1>
 			<h2 class="project-location">LINKBYNET Vietnam</h2>
 			<h3 class="project-time">August 2015 - October 2015</h3>
-			<p class="project-content">Content</p>
+			<p class="project-content">
+				<p>The Dev-BI team of Linkbynet expresses the need to have a <b>survey web application</b> to collect the employees' opinion on various subjects. The opinion can be used to improve several aspects of the company's developement and/or daily life.</p>
+				<p>I took part in this project while being an <a href="research intern at LTCI, Télécom Paris" target="_blank">intern of the Business Intelligence team at Linkbynet</a>.</p>
+			</p>
 			<div>
-				<span class="label label-project">backend</span>
+				<span class="label label-project">web app</span>
+				<span class="label label-project">ruby on rails</span>
+				<span class="label label-project">microsoft sql server</span>
 			</div>
 		</div>
 

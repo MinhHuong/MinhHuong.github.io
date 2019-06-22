@@ -100,30 +100,31 @@ textarea {
     /*src: url("/fonts/Lobster_1.3.otf");*/
     /*src: url("/fonts/Coves-Typeface/Coves Bold.otf");*/
     /*src: url("/fonts/moon/Moon2.0-Regular.otf");*/
-    src: url("/fonts/century-gothic/CenturyGothic.ttf");
+    src: url("/fonts/century-gothic/CenturyGothic.ttf") format("truetype");
 }
 
 @font-face {
     font-family: headingFont;
     /*src: url("/fonts/sofia.otf");*/
-    src: url("/fonts/Coves-Typeface/Coves Bold.otf");
+    src: url("/fonts/Coves-Typeface/Coves Bold.otf") format("opentype");
 }
 
 @font-face {
     font-family: normalFont;
-    src: url("/fonts/century-gothic/CenturyGothic.ttf");
+    src: url("/fonts/century-gothic/CenturyGothic.ttf") format("truetype");
 }
 
 @font-face {
     font-family: boldFont;
-    src: url("/fonts/century-gothic/GOTHICB.ttf");
+    src: url("/fonts/century-gothic/GOTHICB.ttf") format("truetype");
 }
 
 body {
     /*background-image: url("/img/bck_main_06.jpg");*/
     /*background-color: #f0f0f0;*/
     background-color: #192a56;
-    font-family: normalFont;
+    /*font-family: normalFont;*/
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 p {
@@ -147,6 +148,10 @@ h1, h2, h3, h4 {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 3em;
+}
+
+.important {
+    color: rgb(208, 24, 74);
 }
 
 /***** Header *****/
@@ -271,6 +276,21 @@ h2.welcome-title > i {
 }
 
 /* ==================
+    Experience
+    ================= */
+
+.expe-page {
+    margin-left: 7em;
+    margin-right: 7em;
+}
+
+.expe-item {
+    border-bottom: 2px dotted #A4A4A4;
+    /*background-color: yellow;*/
+    padding: 1em;
+}
+
+/* ==================
     Education
     ================= */
 div.education-info-wrapper {
@@ -354,7 +374,10 @@ div.project-item:hover {
 .project-title {
     /*line-height: 1.3em;*/
     font-weight: 900;
-    font-family: boldFont;
+    /*font-family: boldFont;*/
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+
 }
 
 .project-location {
@@ -363,7 +386,7 @@ div.project-item:hover {
 
 .project-time {
     font-size: 1.2em;
-    font-style: italic;
+    /*font-style: italic;*/
     color: #7e7e7e;
 }
 
